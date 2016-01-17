@@ -76,9 +76,9 @@ public class WidgetFetchService extends IntentService {
             //remoteViews.setString(R.id.home_name,"setText","Ayush");
 
             remoteViews.setImageViewResource(R.id.home_crest, Utilies.getTeamCrestByTeamName(
-                    data.getString(COL_HOME)));
+                    data.getString(COL_HOME),getBaseContext()));
             remoteViews.setImageViewResource(R.id.away_crest,Utilies.getTeamCrestByTeamName(
-                    data.getString(COL_AWAY)));
+                    data.getString(COL_AWAY),getBaseContext()));
 
 
             Intent intentOpenApplication = new Intent(this, MainActivity.class);

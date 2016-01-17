@@ -13,6 +13,7 @@
     <string name="premierleague">Premier League</string>
     <string name="primeradivison">Primera Division</string>
     <string name="seriaa">Serie A</string>
+    <string name="notknown_league">Not known League Please report</string>
     <string name="matchday_text">Match day</string>
     <string name="group_stage_text">Group stages</string>
     <string name="first_knockout_round">First knockout round</string>
@@ -44,4 +45,16 @@
     <string name="rightmove_string">&gt;</string>
 
     <string name="match_contentDescription">"Score of <xliff:g id="homeTeam">%1$s</xliff:g> verses <xliff:g id="awayTeam">%2$s</xliff:g> is <xliff:g id="scores">%3$s</xliff:g></string>
+
+    <string name="team_arsenal">Arsenal London FC</string>
+    <string name="team_manu">Manchester United FC</string>
+    <string name="team_swansea">Swansea City</string>
+    <string name="team_leicester">Leicester City</string>
+    <string name="team_everton">Everton FC</string>
+    <string name="team_westham">West Ham United FC</string>
+    <string name="team_tottenham">Tottenham Hotspur FC</string>
+    <string name="team_westbromwich">West Bromwich Albion</string>
+    <string name="team_sunderland">Sunderland AFC</string>
+    <string name="team_stokecity">Stoke City FC</string>
+
 </resources>
